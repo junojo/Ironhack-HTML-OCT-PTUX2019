@@ -8,8 +8,12 @@ body {
 }
 
 header {
-    display: flex;
     justify-content: space-around;
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
 }
 
 section {
@@ -32,7 +36,7 @@ h2 {
 }
 
 h3 {
-    color:blueviolet; 
+    color:white; 
 }
 
 h4 {
@@ -64,6 +68,18 @@ li {
 
 /* CLASSES */
 
+.row {
+    display: flex;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("../img/you-x-ventures-8wH1NjFthaY-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .bgColorSection1 {
     background-color: blueviolet;
 }
@@ -86,4 +102,21 @@ li {
 
 .fa-searchengin {
     color: black;
+}
+
+.centerSectionCol {
+    text-align: center;
+}
+
+/* ID  */
+
+#featuresSection {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#testimonialSection {
+    /* justify-content: center; */
+    width: 500px;
+    text-align: center;
 }
